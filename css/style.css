@@ -20,8 +20,6 @@ body {
   font-weight: 300;
 }
 
-/* ── Header ── */
-
 #logo-header {
   border-top: 1px solid var(--color-dorado);
   border-bottom: 1px solid var(--color-dorado);
@@ -472,3 +470,120 @@ body {
   color: var(--color-negro);
   max-width: 100%;
 }
+
+#navbar .nav-sobre-activo {
+  font-weight: 700;
+}
+
+ 
+#sobre-hero {
+  padding-top: 40px;
+  padding-bottom: 0;
+}
+ 
+#sobre-titulo {
+  font-family: var(--font-titulo);
+  font-size: clamp(32px, 4vw, 48px);
+  font-weight: 600;
+  color: var(--color-oliva);
+  text-align: center;
+  margin-bottom: 20px;
+}
+ 
+#sobre-banner-img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 4px;
+}
+ 
+.sobre-seccion {
+  padding: 1.5% 0;
+}
+ 
+.sobre-divider {
+  border: none;
+  border-top: 1px solid var(--color-dorado);
+  margin-bottom: 16px;
+}
+ 
+.sobre-subtitulo {
+  font-family: var(--font-titulo);
+  font-style: italic;
+  font-size: clamp(24px, 3vw, 36px);
+  font-weight: 400;
+  color: var(--color-oliva);
+  margin-bottom: 12px;
+  line-height: 1.2;
+}
+ 
+.sobre-texto {
+  font-family: var(--font-cuerpo);
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.65;
+  color: var(--color-negro);
+  margin-bottom: 8px;
+}
+ 
+ 
+.sobre-valor {
+  margin-bottom: 10px;
+}
+ 
+.sobre-valor-nombre {
+  font-family: var(--font-cuerpo);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--color-negro);
+  margin-bottom: 1px;
+}
+ 
+ 
+.sobre-contacto-cards {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+ 
+.contacto-card {
+  background-color: var(--color-oliva);
+  padding: 28px 24px;
+  text-align: center;
+  border-radius: 4px;
+}
+ 
+.contacto-icono {
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 12px;
+  display: block;
+}
+ 
+.contacto-label {
+  font-family: var(--font-cuerpo);
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.02em;
+  margin-bottom: 4px;
+}
+ 
+.contacto-dato {
+  font-family: var(--font-cuerpo);
+  font-size: 13px;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 0;
+}
+ 
+ 
+#sobre-gracias {
+  font-family: var(--font-cuerpo);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--color-negro);
+  text-align: center;
+  margin-top: 4px;
+  margin-bottom: 30px;
+}
+
