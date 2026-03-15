@@ -35,8 +35,6 @@ body {
   width: auto;
 }
 
-/* ── Navbar ── */
-
 #navbar {
   background-color: var(--color-crema);
   border-bottom: 1px solid var(--color-dorado);
@@ -58,8 +56,6 @@ body {
 #navbar .nav-activo {
   font-weight: 700;
 }
-
-/* ── Home hero ── */
 
 #hero {
   margin-top: 32px;
@@ -113,7 +109,6 @@ body {
   line-height: 1.6;
 }
 
-/* ── Home must-reads ── */
 
 #must-reads {
   padding: 4% 0 5%;
@@ -242,8 +237,6 @@ body {
   text-transform: uppercase;
 }
 
-/* ── Moda ── */
-
 #hero-moda {
   padding-top: 40px;
 }
@@ -269,8 +262,6 @@ body {
   color: var(--color-negro);
   max-width: 100%;
 }
-
-/* ── Secciones de artículo compartidas ── */
 
 .seccion-articulo {
   padding: 1% 0 5%;
@@ -358,7 +349,6 @@ body {
   text-transform: uppercase;
 }
 
-/* ── Footer ── */
 
 #footer {
   background-color: var(--color-oliva);
@@ -415,8 +405,6 @@ body {
   margin-right: 20px;
 }
 
-/* ── Gastronomía ── */
-
 #hero-gastro-titulo {
   position: absolute;
   top: 50%;
@@ -442,10 +430,6 @@ body {
 #intro-gastro {
   padding: 3% 0;
 }
-
-/* ══════════════════════════
-   BELLEZA
-   ══════════════════════════ */
 
 #hero-belleza {
   padding-top: 40px;
