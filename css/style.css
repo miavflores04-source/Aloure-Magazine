@@ -789,4 +789,12 @@ a.articulo-link:hover {
   border-radius: 4px;
   object-fit: cover;
 }
- 
+
+.articulo-img-mediana {
+  width: 60%;
+  max-width: 450px;
+  height: auto;
+  display: inline-block;
+  border-radius: 4px;
+  object-fit: cover;
+}
