@@ -587,3 +587,206 @@ body {
   margin-bottom: 30px;
 }
 
+a.articulo-link {
+  color: inherit;
+  text-decoration: none;
+}
+ 
+a.articulo-link:hover {
+  color: var(--color-rosado);
+}
+ 
+#articulo-header {
+  padding: 40px 0 0;
+  text-align: center;
+}
+ 
+.articulo-categoria {
+  font-family: var(--font-cuerpo);
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  color: var(--color-dorado);
+  margin-bottom: 12px;
+}
+ 
+.articulo-titulo {
+  font-family: var(--font-titulo);
+  font-size: clamp(32px, 5vw, 56px);
+  font-weight: 600;
+  color: var(--color-oliva);
+  line-height: 1.15;
+  margin-bottom: 16px;
+}
+ 
+.articulo-fecha {
+  font-family: var(--font-cuerpo);
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--color-dorado);
+  margin-bottom: 0;
+}
+ 
+#articulo-banner {
+  padding: 24px 0 0;
+}
+ 
+.articulo-banner-img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 4px;
+}
+ 
+#articulo-intro {
+  padding: 32px 0 8px;
+}
+ 
+.articulo-texto {
+  font-family: var(--font-cuerpo);
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.75;
+  color: var(--color-negro);
+  margin-bottom: 16px;
+}
+ 
+.articulo-receta {
+  padding: 32px 0 8px;
+}
+ 
+.receta-separador {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+ 
+.receta-ornamento {
+  font-size: 18px;
+  color: var(--color-dorado);
+  letter-spacing: -2px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+ 
+.receta-linea {
+  flex: 1;
+  border: none;
+  border-top: 1px solid var(--color-dorado);
+  margin: 0;
+}
+ 
+.receta-titulo {
+  font-family: var(--font-titulo);
+  font-style: italic;
+  font-size: clamp(22px, 3vw, 34px);
+  font-weight: 600;
+  color: var(--color-oliva);
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+ 
+.receta-contenido {
+  margin-top: 16px;
+}
+ 
+.receta-info {
+  padding-right: 40px;
+}
+ 
+.receta-subtitulo {
+  font-family: var(--font-titulo);
+  font-style: italic;
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--color-oliva);
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+ 
+.receta-subtitulo:first-of-type {
+  margin-top: 0;
+}
+ 
+.receta-lista {
+  font-family: var(--font-cuerpo);
+  font-size: 15px;
+  font-weight: 300;
+  color: var(--color-negro);
+  line-height: 1.9;
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+ 
+.receta-img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 4px;
+  display: block;
+}
+ 
+#articulo-cierre {
+  padding: 40px 0 32px;
+}
+ 
+.cierre-header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+ 
+.cierre-titulo {
+  font-family: var(--font-titulo);
+  font-style: italic;
+  font-size: clamp(26px, 3.5vw, 40px);
+  font-weight: 600;
+  color: var(--color-oliva);
+  white-space: nowrap;
+  margin: 0;
+  flex-shrink: 0;
+}
+ 
+.cierre-linea {
+  flex: 1;
+  border: none;
+  border-top: 1px solid var(--color-dorado);
+  margin: 0;
+}
+ 
+.cierre-divider {
+  border: none;
+  border-top: 1px solid var(--color-dorado);
+  margin-top: 32px;
+}
+
+#articulo-cuerpo {
+  padding: 20px 0 8px;
+}
+ 
+.articulo-subtitulo {
+  font-family: var(--font-titulo);
+  font-style: italic;
+  font-size: clamp(20px, 2.5vw, 28px);
+  font-weight: 600;
+  color: var(--color-oliva);
+  margin-top: 26px;
+  margin-bottom: 22px;
+  line-height: 1.2;
+}
+ 
+.articulo-img-centrada {
+  text-align: center;
+  margin: 32px 0;
+}
+ 
+.articulo-img-interior {
+  width: 60%;
+  height: auto;
+  display: inline-block;
+  border-radius: 4px;
+  object-fit: cover;
+}
+ 
