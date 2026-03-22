@@ -798,3 +798,74 @@ a.articulo-link:hover {
   border-radius: 4px;
   object-fit: cover;
 }
+
+.articulo-bajada {
+  font-family: var(--font-titulo);
+  font-style: italic;
+  font-size: 18px;
+  color: var(--color-oliva);
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.articulo-subtitulo {
+  font-family: var(--font-titulo);
+  font-style: italic;
+  font-size: clamp(22px, 3vw, 32px);
+  font-weight: 500;
+  color: var(--color-oliva);
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.articulo-texto {
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
+
+.articulo-img-centrada {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.articulo-img-horizontal {
+  width: 70%;
+  max-width: 700px;
+  border-radius: 4px;
+}
+
+.articulo-img-vertical {
+  width: 35%;
+  max-width: 350px;
+  border-radius: 4px;
+}
+
+.articulo-img-mediana {
+  width: 45%;
+  max-width: 450px;
+  border-radius: 4px;
+}
+
+.articulo-img-batido {
+  width: 55%;
+  max-width: 500px;
+  border-radius: 4px;
+}
+
+.articulo-banner-img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+#articulo-cuerpo {
+  padding-top: 30px;
+}
+
+.cierre-divider {
+  border: none;
+  border-top: 1px solid var(--color-dorado);
+  margin-top: 40px;
+}
